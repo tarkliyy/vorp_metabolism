@@ -1,10 +1,10 @@
 Config = {
-  Locale = "fr",
+  Locale = "en",
 
-  UseMetabolism = false, -- Experimental Function
+  UseMetabolism = true, -- Experimental Function
 
   -- Status amount rate drop
-  EveryTimeStatusDown = 25000, --  3,6 seconds
+  EveryTimeStatusDown = 25000,     --  3,6 seconds
   HowAmountThirstWhileRunning = 3, -- Example drop 3 every 3,6 seconds -- Max value 1000
   HowAmountHungerWhileRunning = 3,
   HowAmountThirst = 2,
@@ -21,15 +21,15 @@ Config = {
   FirstMetabolismStatus = 0,
 
 
--------------------------------------------------------------------------------------------------
-----------------------------------------------           ITEMS         --------------------------
--------------------------------------------------------------------------------------------------
+  -------------------------------------------------------------------------------------------------
+  ----------------------------------------------           ITEMS         --------------------------
+  -------------------------------------------------------------------------------------------------
 
-ItemsToUse = {
+  ItemsToUse = {
     {
       Name = "beer",
       Thirst = 0,
-      Hunger = -50,  
+      Hunger = -50,
       Metabolism = 0,
       Stamina = 0,
       InnerCoreHealth = 0,
@@ -44,7 +44,7 @@ ItemsToUse = {
     {
       Name = "whisky",
       Thirst = 0,
-      Hunger = -50, 
+      Hunger = -50,
       Metabolism = 0,
       Stamina = 0,
       InnerCoreHealth = 0,
@@ -59,7 +59,7 @@ ItemsToUse = {
     {
       Name = "shampan",
       Thirst = 0,
-      Hunger = -50, 
+      Hunger = -50,
       Metabolism = 0,
       Stamina = 0,
       InnerCoreHealth = 0,
@@ -469,6 +469,6 @@ ItemsToUse = {
 
 Translations = {
   ['fr'] = {
-    ['OnUseItem'] =  "Consommé: %s"
+    ['OnUseItem'] = "Consommé: %s"
   },
 }
